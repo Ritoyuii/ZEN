@@ -1,0 +1,85 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(Ima/234.jpg);
+    }
+
+
+    .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.menu li a:hover {
+    transform: translateY(4px); 
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2); 
+    background-color: #111;
+}
+
+.menu li a:active {
+    background-color: #555;
+    transform: translateY(6px);  
+}
+
+    .contact-info {
+      margin:90px;
+      border:black 2px solid;
+      color:white;
+      padding: 40px;
+      text-align: center;
+      background-image: url(Ima/234.jpg);
+    }
+
+    .contact-info h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu">
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <div class="contact-info">
+    <h2>Información de Contacto</h2>
+    <p><strong>Email:</strong>juandreslozano@gmail.com</p>
+    <p><strong>Teléfono:</strong> (+57) 318 308 1375</p>
+    <p><strong>Dirección:</strong>  Cali, Colombia</p>
+  </div>
+
+</body>
+</html>
